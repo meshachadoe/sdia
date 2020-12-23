@@ -1,0 +1,11 @@
+header {
+	width: 100vw;
+	height: 80vh;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../../assets/title-full.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #00004a;
+}

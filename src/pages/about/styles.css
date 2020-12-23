@@ -1,0 +1,45 @@
+.about {
+	height: 100vh;
+	background-color: #101010;
+	color: #fff;
+	padding: 100px 20vw;
+}
+
+.about h2 {
+	font-size: 7rem;
+	line-height: 85%;
+	margin: 0;
+}
+
+.about h3 {
+	font-size: 4em;
+	margin: 0;
+}
+
+.about p {
+	text-align: right;
+	width: 60%;
+	margin-left: 40%;
+}
+
+.about__heading {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.about__heading div {
+	position: relative;
+}
+
+.about__heading div img {
+	height: 60px;
+	position: absolute;
+	right: 40px;
+	bottom: 6px;
+}
+
+.bold {
+	font-weight: 700;
+}
