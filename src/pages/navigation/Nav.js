@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import './styles.css';
 import sdia from '../../assets/sdia-logo.png'
 
 export default function Nav() {
-    const scrollToContact = () => {
-        window.scrollTo({top: 1000, behavior: 'smooth'})
-    }
+    // const scrollToContact = () => {
+    //     window.scrollTo({top: 1000, behavior: 'smooth'})
+    // }
     return (
         <div className="nav">
             <div className="nav__title">
