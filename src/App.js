@@ -1,3 +1,7 @@
+import {
+  BrowserRouter as Router,
+  Route,
+} from "react-router-dom"
 import './styles/typography.css'
 import './styles/styles.css'
 import Nav from './pages/navigation/Nav'
@@ -8,13 +12,17 @@ import Footer from './pages/footer/Footer'
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <Home />
-      <About />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+        <Route path="/">
+          <Home />
+          <About />
+          <Contact />
+          <Footer />
+        </Route>
+      </div>
+    </Router>
   );
 }
 

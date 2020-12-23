@@ -41,13 +41,18 @@
 	font-weight: 500;
 }
 
-.nav ul li:last-of-type {
+.nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav__ctoa {
 	border: 2px solid;
 	padding: 5px 20px;
 	border-radius: 20px;
 }
 
-.nav ul li:last-of-type:hover {
+.nav__ctoa:hover {
 	color: #00004a;
 	background-color: #fff;
 	transition: color 2ms, background-color 2ms;

@@ -22,11 +22,12 @@
 	color: #9a87bf;
 }
 
-button {
+.contact a {
 	width: 50%;
 	align-self: center;
 	justify-self: center;
 	outline: none;
+	text-decoration: none;
 	border: 2px solid #93d1ac;
 	border-radius: 30px;
 	padding: 0px 40px;
@@ -34,9 +35,20 @@ button {
 	background-color: #101010;
 }
 
-button h2 {
+.contact a h2 {
 	font-size: 3rem;
+	text-align: center;
 	line-height: 80%;
 	padding: 0;
 	margin: 15px 0 20px 0;
+}
+
+.contact a:hover {
+	background-color: #93d1ac;
+	transition: background-color 0.2s;
+}
+
+.contact a h2:hover {
+	color: #101010;
+	transition: color 0.2s;
 }
