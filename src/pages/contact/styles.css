@@ -1,0 +1,42 @@
+.contact {
+	height: 60vh;
+	background-color: #101010;
+	color: #fff;
+	padding: 0px 20vw 50px 20vw;
+	display: grid;
+}
+
+.contact div h3 {
+	font-size: 4em;
+	line-height: 0%;
+	text-align: right;
+}
+
+.contact div p {
+	font-size: 1.8em;
+	text-align: right;
+}
+
+.highlight {
+	font-weight: 700;
+	color: #9a87bf;
+}
+
+button {
+	width: 50%;
+	align-self: center;
+	justify-self: center;
+	outline: none;
+	border: 2px solid #93d1ac;
+	border-radius: 30px;
+	padding: 0px 40px;
+	color: #fff;
+	background-color: #101010;
+}
+
+button h2 {
+	font-size: 3rem;
+	line-height: 80%;
+	padding: 0;
+	margin: 15px 0 20px 0;
+}

@@ -1,0 +1,33 @@
+footer {
+	height: 20vh;
+	padding: 100px 20vw;
+	background-color: #010101;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.copyright h2 {
+	margin: 0;
+	color: #fff;
+	line-height: 50%;
+}
+
+.copyright h4 {
+	margin: 0;
+	margin-top: 20px;
+}
+
+.orgName h4 {
+	text-align: right;
+	margin: 0px;
+	color: #fff;
+	line-height: 95%;
+	font-size: 1.3rem;
+}
+
+.orgName h4:last-of-type {
+	background-color: #9c2b2b;
+	margin-top: 10px;
+	padding: 5px 5px 5px 20px;
+}
